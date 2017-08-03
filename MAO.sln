@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAO", "MAO\MAO.csproj", "{53B0F4FF-811D-4241-A1FA-6B371BB9B99C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mao.Web", "Mao.Web\Mao.Web.csproj", "{404C3E54-9995-4F8D-B7C3-A5EB00DA5426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mao.Core", "Mao.Core\Mao.Core.csproj", "{35724885-CA3E-4D9B-9ECB-BA120CD5028A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mao.Models", "Mao.Models\Mao.Models.csproj", "{D6FE3C82-5B0A-41A8-8D7A-B9CC2388A606}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mao.Infrastructure", "Mao.Infrastructure\Mao.Infrastructure.csproj", "{139AEE8C-ED3F-444E-A07F-494840D7868F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mao.Localization", "Mao.Localization\Mao.Localization.csproj", "{B3280E8A-09EC-4CBF-9D8B-0F2A02E72CE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{53B0F4FF-811D-4241-A1FA-6B371BB9B99C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{53B0F4FF-811D-4241-A1FA-6B371BB9B99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{53B0F4FF-811D-4241-A1FA-6B371BB9B99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{53B0F4FF-811D-4241-A1FA-6B371BB9B99C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404C3E54-9995-4F8D-B7C3-A5EB00DA5426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404C3E54-9995-4F8D-B7C3-A5EB00DA5426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404C3E54-9995-4F8D-B7C3-A5EB00DA5426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404C3E54-9995-4F8D-B7C3-A5EB00DA5426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35724885-CA3E-4D9B-9ECB-BA120CD5028A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35724885-CA3E-4D9B-9ECB-BA120CD5028A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35724885-CA3E-4D9B-9ECB-BA120CD5028A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35724885-CA3E-4D9B-9ECB-BA120CD5028A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6FE3C82-5B0A-41A8-8D7A-B9CC2388A606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6FE3C82-5B0A-41A8-8D7A-B9CC2388A606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6FE3C82-5B0A-41A8-8D7A-B9CC2388A606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6FE3C82-5B0A-41A8-8D7A-B9CC2388A606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{139AEE8C-ED3F-444E-A07F-494840D7868F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139AEE8C-ED3F-444E-A07F-494840D7868F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139AEE8C-ED3F-444E-A07F-494840D7868F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139AEE8C-ED3F-444E-A07F-494840D7868F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3280E8A-09EC-4CBF-9D8B-0F2A02E72CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3280E8A-09EC-4CBF-9D8B-0F2A02E72CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3280E8A-09EC-4CBF-9D8B-0F2A02E72CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3280E8A-09EC-4CBF-9D8B-0F2A02E72CE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
