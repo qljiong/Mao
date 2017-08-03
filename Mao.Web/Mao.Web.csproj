@@ -130,6 +130,24 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mao.Core\Mao.Core.csproj">
+      <Project>{35724885-ca3e-4d9b-9ecb-ba120cd5028a}</Project>
+      <Name>Mao.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mao.Infrastructure\Mao.Infrastructure.csproj">
+      <Project>{139aee8c-ed3f-444e-a07f-494840d7868f}</Project>
+      <Name>Mao.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mao.Localization\Mao.Localization.csproj">
+      <Project>{b3280e8a-09ec-4cbf-9d8b-0f2a02e72ce1}</Project>
+      <Name>Mao.Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mao.Models\Mao.Models.csproj">
+      <Project>{d6fe3c82-5b0a-41a8-8d7a-b9cc2388a606}</Project>
+      <Name>Mao.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
