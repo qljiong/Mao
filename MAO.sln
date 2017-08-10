@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mao.Infrastructure", "Mao.I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mao.Localization", "Mao.Localization\Mao.Localization.csproj", "{B3280E8A-09EC-4CBF-9D8B-0F2A02E72CE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{DA2B2DCE-32E4-4F1C-A1EE-6BC482B774B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B3280E8A-09EC-4CBF-9D8B-0F2A02E72CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3280E8A-09EC-4CBF-9D8B-0F2A02E72CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3280E8A-09EC-4CBF-9D8B-0F2A02E72CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2B2DCE-32E4-4F1C-A1EE-6BC482B774B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2B2DCE-32E4-4F1C-A1EE-6BC482B774B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2B2DCE-32E4-4F1C-A1EE-6BC482B774B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2B2DCE-32E4-4F1C-A1EE-6BC482B774B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
