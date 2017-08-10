@@ -1,16 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using Mao.Core;
+using Mao.Models;
+using System;
 using System.Web.Mvc;
 
 namespace Mao.Web.Controllers
 {
     public class DefaultController : Controller
     {
+        private EmployeeData _employeeData;
+
+        public DefaultController()
+        {
+            _employeeData = new EmployeeData();
+        }
+
         // GET: Default
         public ActionResult Index()
         {
+            var Emp = new Employee()
+            {
+                Id = Guid.NewGuid().ToString("N")
+            };
+            var result = _employeeData.AddEmployee(Emp);
+            ViewBag.result = result;
             return View();
         }
     }
