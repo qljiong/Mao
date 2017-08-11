@@ -20,11 +20,10 @@ namespace Mao.Core
                 try
                 {
                     session.SaveOrUpdate(employee);
-                    session.Flush();
                     trans.Commit();
                     return true;
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
                     trans.Rollback();
                     return false;

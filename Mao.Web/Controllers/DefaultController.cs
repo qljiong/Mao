@@ -19,7 +19,9 @@ namespace Mao.Web.Controllers
         {
             var Emp = new Employee()
             {
-                Id = Guid.NewGuid().ToString("N")
+                FirstName="123",
+                LastName="ddd",
+                Store="ceshi"
             };
             var result = _employeeData.AddEmployee(Emp);
             ViewBag.result = result;

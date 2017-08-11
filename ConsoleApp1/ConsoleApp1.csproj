@@ -55,8 +55,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\Employee.cs" />
-    <Compile Include="Mappings\EmployeeMap.cs" />
+    <Compile Include="shiti\Employee.cs" />
+    <Compile Include="yingshe\EmployeeMap.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

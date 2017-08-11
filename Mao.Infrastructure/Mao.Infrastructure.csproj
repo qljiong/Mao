@@ -68,7 +68,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mapping\EmployeeMapping.cs" />
+    <Compile Include="Mapping\EmployeeMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\AppConfigUtil.cs" />
     <Compile Include="Util\FluentNhibernateHelper.cs" />

@@ -1,4 +1,4 @@
-﻿using ConsoleApp1.Entities;
+﻿using ConsoleApp1.shiti;
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
 using NHibernate;
@@ -28,8 +28,29 @@ namespace ConsoleApp1
                         Age = 18
 
                     };
+                    Employee ceshi3 = new Employee()
+                    {
+                        Name = "ceshi3",
+                        Age = 21
 
-                    session.SaveOrUpdate("Employee", employee);
+                    };
+                    Employee ceshi4 = new Employee()
+                    {
+                        Name = "ceshi4",
+                        Age = 25
+
+                    };
+                    Employee ceshi5 = new Employee()
+                    {
+                        Name = "ceshi5",
+                        Age = 25
+
+                    };
+
+                    session.SaveOrUpdate(employee);
+                    session.SaveOrUpdate(ceshi3);
+                    session.SaveOrUpdate(ceshi4);
+                    session.SaveOrUpdate(ceshi5);
 
                     transaction.Commit();
                 }
@@ -45,8 +66,9 @@ namespace ConsoleApp1
 
                     foreach (var emp in Employees)
                     {
-                        Console.WriteLine(emp.Name + "\r\n");
+                        Console.WriteLine(emp.Name);
                     }
+                    
                 }
             }
 
