@@ -39,12 +39,13 @@ namespace Mao.Infrastructure.Util
                     {
                         //配置ISessionFactory
                         _sessionFactory = Fluently.Configure()
-                                           .Database(MsSqlConfiguration
-                                           .MsSql2008
-                                           .ConnectionString(c => c.FromConnectionStringWithKey("DefaultConnection")))
-                                           .Mappings(m => m.FluentMappings
-                                           .AddFromAssemblyOf<EmployeeMap>()).ExposeConfiguration(BuildSchema)
-                                           .BuildSessionFactory();
+                            .Database(MsSqlConfiguration
+                            .MsSql2012
+                            .ConnectionString(c => c.FromConnectionStringWithKey("DefaultConnection")))
+                            .Mappings(m => m.FluentMappings
+                            .AddFromAssemblyOf<EmployeeMap>())
+                            .ExposeConfiguration(BuildSchema)
+                            .BuildSessionFactory();
                     }
                 }
             }

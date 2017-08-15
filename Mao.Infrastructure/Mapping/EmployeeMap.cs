@@ -15,8 +15,6 @@ namespace Mao.Infrastructure.Mapping
             Map(m => m.FirstName);
             Map(m => m.LastName);
             Map(m => m.Store);
-
-
         }
     }
 }
