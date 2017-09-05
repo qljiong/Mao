@@ -23,7 +23,7 @@ namespace Mao.Core
                     trans.Commit();
                     return true;
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     trans.Rollback();
                     return false;
