@@ -27,5 +27,10 @@ namespace Mao.Web.Controllers
             ViewBag.result = result;
             return View();
         }
+
+        //public ActionResult GetList()
+        //{
+        //    _employeeData.
+        //}
     }
 }

@@ -31,5 +31,24 @@ namespace Mao.Core
             }
 
         }
+
+        //public List<Employee> GetList()
+        //{
+        //    ISession session = FluentNhibernateHelper.GetSession();
+        //    using (var trans = session.BeginTransaction())
+        //    {
+        //        try
+        //        {
+        //            session.Get()
+        //            trans.Commit();
+        //            return true;
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            trans.Rollback();
+        //            return false;
+        //        }
+        //    }
+        //}
     }
 }
