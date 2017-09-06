@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Mao.Models;
 using Mao.Infrastructure.DB.Base;
 using Mao.Core.Util;
+using Mao.Infrastructure.Util;
 
 namespace Mao.Core.AppService.Public
 {
@@ -20,7 +21,9 @@ namespace Mao.Core.AppService.Public
 
         public List<Employee> GetList()
         {
-            throw new NotImplementedException();
+            var getdata = dsf.GetDataSet("select * from SysUser");
+            var result = DbUtil.LoadEntities<Employee>(getdata);
+            return result;
         }
     }
 }
