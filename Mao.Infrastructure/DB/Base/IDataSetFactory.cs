@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mao.Infrastructure.DB.Base
+namespace Mao.Infrastructure.Db.Base
 {
     public interface IDataSetFactory
     {

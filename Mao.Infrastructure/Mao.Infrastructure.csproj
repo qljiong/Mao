@@ -89,20 +89,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\NHibernateProfilerBootstrapper.cs" />
-    <Compile Include="DB\Base\AbstractDbUtil.cs" />
-    <Compile Include="DB\Base\IDataSetFactory.cs" />
-    <Compile Include="DB\Base\IEntityFactory.cs" />
-    <Compile Include="DB\Base\IPageQuery.cs" />
-    <Compile Include="DB\Base\NhPagedQuery.cs" />
-    <Compile Include="DB\Base\NhQuery.cs" />
-    <Compile Include="DB\Base\NhQueryBase.cs" />
-    <Compile Include="DB\Base\PagedEntities.cs" />
-    <Compile Include="DB\Base\Pager.cs" />
-    <Compile Include="DB\Base\TxAttribute.cs" />
-    <Compile Include="DB\FocTxAttributeSourceAdvisor.cs" />
-    <Compile Include="DB\FocTxInterceptor.cs" />
-    <Compile Include="DB\FocTxProxyFactoryObject.cs" />
-    <Compile Include="DB\TxInterceptorAttribute.cs" />
+    <Compile Include="Db\Base\AbstractDataSetFactory.cs" />
+    <Compile Include="Db\Base\AbstractDbUtil.cs" />
+    <Compile Include="Db\Base\IDataSetFactory.cs" />
+    <Compile Include="Db\Base\IEntityFactory.cs" />
+    <Compile Include="Db\Base\IPageQuery.cs" />
+    <Compile Include="Db\Base\NhPagedQuery.cs" />
+    <Compile Include="Db\Base\NhQuery.cs" />
+    <Compile Include="Db\Base\NhQueryBase.cs" />
+    <Compile Include="Db\Base\PagedEntities.cs" />
+    <Compile Include="Db\Base\PagedQueryBase.cs" />
+    <Compile Include="Db\Base\Pager.cs" />
+    <Compile Include="Db\Base\TxAttribute.cs" />
+    <Compile Include="Db\FocTxAttributeSourceAdvisor.cs" />
+    <Compile Include="Db\FocTxInterceptor.cs" />
+    <Compile Include="Db\FocTxProxyFactoryObject.cs" />
+    <Compile Include="Db\Impl\DataSetFactoryMsSql.cs" />
+    <Compile Include="Db\Impl\DbUtilMsSql.cs" />
+    <Compile Include="Db\Impl\MsSqlPageQuery.cs" />
+    <Compile Include="Db\TxInterceptorAttribute.cs" />
     <Compile Include="Excep\BaseException.cs" />
     <Compile Include="Ioc\DependenceAttribute.cs" />
     <Compile Include="Ioc\DependencyHelper.cs" />
@@ -114,6 +119,7 @@
     <Compile Include="Mapping\RoleMap.cs" />
     <Compile Include="Mapping\SysUserMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SysEnvSpecification.cs" />
     <Compile Include="Util\AesUtil.cs" />
     <Compile Include="Util\AppConfigUtil.cs" />
     <Compile Include="Util\AssertUtilException.cs" />
@@ -124,18 +130,17 @@
     <Compile Include="Util\IocUtil.cs" />
     <Compile Include="Util\LogUtil.cs" />
     <Compile Include="Util\NhPasswordUtil.cs" />
-    <Compile Include="DB\NhUtil.cs" />
+    <Compile Include="Db\NhUtil.cs" />
     <Compile Include="Util\RegexUtil.cs" />
     <Compile Include="Util\ResourceUtil.cs" />
+    <Compile Include="Util\StringUtil.cs" />
     <Compile Include="Util\TxObjectPool.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DB\Implement\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Mao.Models\Mao.Models.csproj">
       <Project>{d6fe3c82-5b0a-41a8-8d7a-b9cc2388a606}</Project>

@@ -33,7 +33,7 @@ namespace Mao.Web.Controllers
         public ActionResult GetList()
         {
             var dmeo1 = TransactionUtil.Get<IEmployeeQueryService>();
-            var demo2 = DependencyInjectUtil.Resolve<IEmployeeQueryService>();
+            //var demo2 = DependencyInjectUtil.Resolve<IEmployeeQueryService>();
             return View();
         }
     }

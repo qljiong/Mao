@@ -1,4 +1,4 @@
-﻿using Mao.Infrastructure.DB.Base;
+﻿using Mao.Infrastructure.Db.Base;
 using Mao.Infrastructure.Util;
 using System;
 using System.Collections.Generic;

@@ -10,7 +10,7 @@ using System.Linq;
 using System.Reflection;
 using Configuration = NHibernate.Cfg.Configuration;
 
-namespace Mao.Infrastructure.DB
+namespace Mao.Infrastructure.Db
 {
     // NHibernate 初始化
     internal static class NhUtil

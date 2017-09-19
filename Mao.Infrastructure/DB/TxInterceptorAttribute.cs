@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mao.Infrastructure.DB
+namespace Mao.Infrastructure.Db
 {
     public class InterceptContext
     {

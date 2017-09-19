@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mao.Infrastructure.DB.Base
+namespace Mao.Infrastructure.Db.Base
 {
     /// <summary>
     /// 抽象数据库工具类

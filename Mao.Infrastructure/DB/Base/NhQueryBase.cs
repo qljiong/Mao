@@ -10,7 +10,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mao.Infrastructure.DB.Base
+namespace Mao.Infrastructure.Db.Base
 {
     public class NhQueryBase<T, TQ> where TQ : NhQueryBase<T, TQ>
     {

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mao.Infrastructure.DB
+namespace Mao.Infrastructure.Db
 {
     //以 Spring.Transaction.Interceptor.TransactionInterceptor 为模板
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Mao.Models;
-using Mao.Infrastructure.DB.Base;
+using Mao.Infrastructure.Db.Base;
 using Mao.Core.Util;
 using Mao.Infrastructure.Util;
 

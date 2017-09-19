@@ -76,12 +76,17 @@
   <ItemGroup>
     <Folder Include="Auth\" />
     <Folder Include="Cache\" />
-    <Folder Include="Config\" />
+    <Folder Include="Config\Db\" />
     <Folder Include="DomainConfig\" />
     <Folder Include="Domain\Model\" />
     <Folder Include="Domain\Service\" />
     <Folder Include="Domain\Shared\" />
     <Folder Include="SystemManager\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Config\Ef\ef_dsp.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

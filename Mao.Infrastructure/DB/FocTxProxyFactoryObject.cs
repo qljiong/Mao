@@ -14,7 +14,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mao.Infrastructure.DB
+namespace Mao.Infrastructure.Db
 {
     /// <summary>
     /// Proxy factory object for simplified declarative transaction handling.

@@ -1,4 +1,4 @@
-﻿using Mao.Infrastructure.DB.Base;
+﻿using Mao.Infrastructure.Db.Base;
 using Mao.Infrastructure.Util;
 using System;
 using System.Collections.Generic;
@@ -17,11 +17,11 @@ namespace Mao.Core.Util
     {
         public static IEntityFactory EfPub
         {
-            get { return _getEf("pub"); }
+            get { return _getEf("dsp"); }
         }
         public static IDataSetFactory DsfPub
         {
-            get { return _getDsf("pub"); }
+            get { return _getDsf("dsp"); }
         }
 
         private static IEntityFactory _getEf(string dbName)

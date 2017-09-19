@@ -8,7 +8,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mao.Infrastructure.DB
+namespace Mao.Infrastructure.Db
 {
     /// <summary>
     /// Advisor driven by a <see cref="Spring.Transaction.Interceptor.ITransactionAttributeSource"/>, used to include

@@ -1,5 +1,5 @@
-﻿using Mao.Infrastructure.DB;
-using Mao.Infrastructure.DB.Base;
+﻿using Mao.Infrastructure.Db;
+using Mao.Infrastructure.Db.Base;
 using NHibernate;
 using System;
 using System.Collections.Generic;
